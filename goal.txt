@@ -1,0 +1,17 @@
+
+(open the root folder
+check if there is any subfolder, if exists - open that folder
+in that folder check again if there is a folder) do this till only files no folder
+
+
+{first - get rid of duplicate files -> same name or name ends with - copy, if the name is same check the file size the file with bigger file size stays.
+
+second - sort the files in ascending order of creation
+
+third - group the files with same creation date in same folder} repeat till no file left, all folders
+
+now check if the current folder is the root folder or not, if not the root folder, 
+cut all the files in the current folder and move them into next subfolder of root, 
+if no subfolder then exit the program
+
+print done
